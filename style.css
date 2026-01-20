@@ -45,11 +45,9 @@ footer {
     padding: 10px;
 }
 
-.school-image {
-  width: 60%;          /* 🔽 decrease width (try 50–70%) */
-  max-width: 600px;    /* 🔒 stops image from becoming too large */
-  height: auto;        /* keeps image ratio correct */
-  display: block;
-  margin: 20px auto;   /* center + spacing */
-  border-radius: 12px; /* smooth rounded corners */
+@media (max-width: 768px) {
+  .school-image {
+    width: 90%;
+  }
 }
+
